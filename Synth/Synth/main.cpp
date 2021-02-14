@@ -17,7 +17,7 @@ double MakeNoise(double dTime)
 {
 	// Mixed sine and square waves
 	double dOutput = envelope.GetAmplitude(dTime) *
-		(+1.0 * osc(frequencyOutput * 0.5, dTime, OSC_SINE) + 1.0 * osc(frequencyOutput, dTime, OSC_SAW_ANA));
+		(+1.0 * osc(frequencyOutput * 0.5, dTime, OSC_SINE, 5.0, 0.5) + 1.0 * osc(frequencyOutput, dTime, OSC_SQUARE, 5.0, 0.5));
 	return dOutput * 0.4; // Master Volume
 }
 
@@ -38,7 +38,7 @@ int main() {
 			"|    |S|    |    |F|   |G|    |    |J|   |K|   |L|    |     |\n"
 			"|     -     |     -     -     |     -     -     -     |     |\n"
 			"|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |\n"
-			"-------------------------------------------------------------\n";
+			"-------------------------------------------------------------";
 
 		
 
