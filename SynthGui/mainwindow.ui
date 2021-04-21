@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #E9E9E9;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BNatural">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="DNatural">
+    <property name="geometry">
+     <rect>
+      <x>274</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="GNatural">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="ANatural">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>470</y>
+      <width>70</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>70</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="ENatural">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="HighA">
+    <property name="geometry">
+     <rect>
+      <x>598</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>,</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="CNatural">
+    <property name="geometry">
+     <rect>
+      <x>193</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="FNatural">
+    <property name="geometry">
+     <rect>
+      <x>436</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="HighB">
+    <property name="geometry">
+     <rect>
+      <x>679</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="HighC">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>470</y>
+      <width>75</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+ 	border: 1px solid gray;
+}
+
+QPushButton:pressed{
+	background-color: #EFEFEF;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="ASharp">
+    <property name="geometry">
+     <rect>
+      <x>85</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="CSharp">
+    <property name="geometry">
+     <rect>
+      <x>249</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="DSharp">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="FSharp">
+    <property name="geometry">
+     <rect>
+      <x>489</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="GSharp">
+    <property name="geometry">
+     <rect>
+      <x>565</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>K</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="HighASharp">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>384</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #444444;
+ 	border: 1px solid gray;
+	color: #FFFFFF;
+}
+
+QPushButton:pressed{
+	background-color: #484848;
+ 	border: 1px solid gray;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>841</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">background-color: #E9E9E9;
+font: italic 20pt &quot;Monotype Corsiva&quot;;
+color: rgb(140, 110, 19);</string>
+         </property>
+         <property name="text">
+          <string>  Cynth++</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+	background-color: #E9E9E9;
+}</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QSlider" name="Attack">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>10</number>
+              </property>
+              <property name="sliderPosition">
+               <number>2</number>
+              </property>
+              <property name="tracking">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="Decay">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>10</number>
+              </property>
+              <property name="tracking">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="Sustain">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>10</number>
+              </property>
+              <property name="sliderPosition">
+               <number>8</number>
+              </property>
+              <property name="tracking">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="Release">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>10</number>
+              </property>
+              <property name="sliderPosition">
+               <number>2</number>
+              </property>
+              <property name="tracking">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Courier&quot;;</string>
+              </property>
+              <property name="text">
+               <string>   Attack</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Courier&quot;;</string>
+              </property>
+              <property name="text">
+               <string> Decay</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Courier&quot;;</string>
+              </property>
+              <property name="text">
+               <string> Sustain</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Courier&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Release</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">QWidget{
+	background-color: #E9E9E9;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QSlider" name="Volume">
+            <property name="maximum">
+             <number>40</number>
+            </property>
+            <property name="sliderPosition">
+             <number>40</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">font: 12pt &quot;Courier&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Volume</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="1" column="0">
+           <widget class="QDial" name="OctaveKnob">
+            <property name="minimum">
+             <number>-2</number>
+            </property>
+            <property name="maximum">
+             <number>2</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QDial" name="Osc2Select">
+            <property name="maximum">
+             <number>5</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>OSC Bias</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QDial" name="LFOAmplitude">
+            <property name="maximum">
+             <number>10</number>
+            </property>
+            <property name="sliderPosition">
+             <number>5</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>LFO Hertz</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QDial" name="OscBias">
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="sliderPosition">
+             <number>50</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDial" name="LFOHertz">
+            <property name="maximum">
+             <number>10</number>
+            </property>
+            <property name="sliderPosition">
+             <number>5</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>OSC 2 Selector</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>OSC 1 Selector</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Octave</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>LFO Amplitude</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QDial" name="OSC1Select">
+            <property name="styleSheet">
+             <string notr="true">QDial{
+	Dial.SnapAlways;
+	StepSize: 0.2;
+}</string>
+            </property>
+            <property name="maximum">
+             <number>5</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>842</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
